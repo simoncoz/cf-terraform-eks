@@ -32,7 +32,7 @@ variable "machine_type" {
   type    = string
   default = "t2.small"
 }
-
+ 
 variable "destroy" {
   type    = bool
   default = true
