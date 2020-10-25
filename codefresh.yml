@@ -22,7 +22,7 @@ steps:
     commands:
       - terraform plan
   apply:
-    image: hashicorp/terraform:0.13.0
+    image: hashicorp/terraform:0.13.5
     title: Applying Terraform
     stage: apply
     commands:
